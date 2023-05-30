@@ -8,10 +8,25 @@ body {
     opacity: 1.0;
 }
 
+.cardAccord {
+    margin-top: 20px;
+    border: none;
+}
 
+.cardHeader {
+    background-color: #008ed6;
+}
+
+p.btnAccord {
+    font-family: 'Open Sans' !important;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 #home-section {
-    background: linear-gradient(180deg, #0193DE 0%, rgba(1, 147, 222, 0) 104.61%), url("../images/home.jpg");
+    background: linear-gradient(180deg, #0193DE 0%, rgba(1, 147, 222, 0) 104.61%), url("../images/beranda.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -20,7 +35,7 @@ body {
 
 #home-section .dark-overlay {
     position: absolute;
-    top: 1000px;
+    top: 0;
     left: 0;
     width: 100%;
     min-height: 700px;

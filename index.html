@@ -6,7 +6,6 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,10 +14,9 @@
 </head>
 
 <body>
-    <!--  START HERE -->
     <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light" id="main-nav">
         <div class="container">
-            <img src="images/Logo Jaya Karsa Makarya Praja 1.png" class="text1" alt="logo" />
+            <img src="images/logoheader.png" class="text1" alt="logo" />
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                 <span>
                     <i class="fa fa-navicon"></i>
@@ -27,143 +25,226 @@
             <div class="navbar-collapse collapse" id="navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#home-section" class="nav-link">Home</a>
+                        <a href="#home-section" class="nav-link">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#explore-head-section" class="nav-link">Lorem</a>
+                        <a href="#visimisi-section" class="nav-link">Visi Misi</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#create-head-section" class="nav-link">Ipsum</a>
+                        <a href="#sejarah-section" class="nav-link">Sejarah</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#share-head-section" class="nav-link">Dolor</a>
+                        <a href="#lokasi-head-section" class="nav-link">Lokasi</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!--HOME SECTION-->
-    <header id="home-section">
-        <div class="light-overlay">
+    <header id="home-section" class="">
+        <div class="light-overlay align-middle">
             <div class="home-inner container">
                 <div class="row">
                     <div class="col text-center py-5">
-                        <h1 class="text1">SELAMAT DATANG DI WEBSITE</h1>
-                        <h1 class="text2">DESA BABAKAN</h1>
-                        <p class="lead">Kecamatan Pangandaran, Kabupaten Pangandaran Tahun 2022</p>
+                        <h1 class="text1 text-shadow">SELAMAT DATANG DI WEBSITE</h1>
+                        <h1 class="text2 font-weight-bold text-shadow">DESA BABAKAN</h1>
+                        <p class="lead font-weight-bold text-shadow">Kecamatan Pangandaran, Kabupaten Pangandaran Tahun 2022</p>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- EXPLORE HEAD-->
-    <section id="explore-head-section">
+    <section id="visimisi-section">
         <div class="container">
             <div class="row">
-                <div class="col text-center py-5">
+                <div class="col text-center py-5 align-center">
                     <h1 class="display-4">VISI DESA BABAKAN</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque consectetur
-                        cumque doloremque eius, eligendi est ex harum inventore.</p>
+                    <p class="lead">Dengan iman dan taqwa desa babakan dinamis tahun 2023</p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo" style="color:white;">
+                                        Arti Dari Damai
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Sebuah gambaran tentang situasi dan kondisi serta keadaan suatu wilayah desa yang betul-betul terbangun keharmonisan antara pemerintah desa dengan masyarakatnya. Pemerintah dapat melaksanakan 	tugasnya dalam melayani masyarakat desa dengan penuh kesungguhan, dan begitu pula dengan masyarakatnya yang termotifasi dalam melaksanakan aktifitasnya dalam suasana dan kondisi wilayah desa yang damai.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="color:white;">
+                                        Arti Dari Indah
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Sebuah perwujudan yang merupakan buah dari keberhasilan kerjasama yang baik antara pemerintah 	dengan
+                                        seluruh komponen masyarakat dalam menata wilayah desa sehingga tetep terjaga keasrian alamiah.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="color:white;">
+                                        Arti Dari Nyaman
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Sebuah keadaan wilayah desa yang berada di pesisir pantai dan dengan budaya serta kultur masyarakatnya yang menjunjung tinggi nilai-nilai kebersamaan sehingga tercipta suasana dan 	   keharmonisan wilayah desa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="color:white;">
+                                        Arti Dari Agamis
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Tatanan kehidupan segenap masyarakat Desa Babakan akan selalu didasarkan kepada nilai-	   nilai moral dan agama, sehingga dalam melaksanakan  pembangunan atau berfartisifasi dalam pembangunan akan selalu bersungguh-sungguh dan tumbuhnya rasa tanggung jawab dengan penuh kesadaran, karena semua berpandangan sama bahwa pembangunan yang dilaksanakan tidak hanya dapat dipertanggungjawabkan secara moral saja kepada seluruh warga masyarakat Desa Babakan, melainkan harus dipertanggungjawabkan secara moral kepada Tuhan Yang Maha Esa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive" style="color:white;">
+                                        Arti Dari Maju
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Merupakan sebuah kondisi perubahan kehidupan masyarakat dalam bidang ekonomi, pendidikan, kesehatan, sosial dan budaya kearah yang lebih baik dengan ditunjang oleh sarana prasarana, infrastruktur yang memadai. bahwa jika semua potensi yang ada telah digali seoptimal mungkin dan dilaksanakan dengan penuh rasa tanggung jawab maka pemerintah serta masyarakat desa akan dengan mudah untuk menentukan jenis pembangunan yang dibutuhkan dan akan dilaksanakan tanpa harus sepenuhnya menggantungkan diri terhadap pemerintah. Hal ini dikarenakan desa akan memiliki modal yang cukup untuk dapat melaksanakan pembangunan yang telah disesuaikan dengan porsi berdasarkan kebutuhan dan kemampuan yang dimiliki. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="color:white;">
+                                        <p>
+                                            Arti Dari Idaman
+                                        </p> 
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Sebuah wilayah desa yang menjadi idola dan menjadi idaman serta kebanggaan seluruh warga masyarakatnya. Hal ini merupakan salah satu bentuk keberhasilan dalam melaksanakan semua program dan pembangunan yang dilaksanakan oleh pemerintah bersama-sama dengan seluruh komponen masyarakat desa. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardAccord">
+                            <div class="card-header cardHeader" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btnAccord" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven" style="color:white;">
+                                        Arti Dari Sejahtera
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p style="color:black;">
+                                        Gambaran situasi dan kondisi serta terpenuhinya kebutuhan sosial kemasyarakatan dibidang ekonomi, pendidikan, kesehatan dan kepuasan atas terwujudnya pelaksanaan program pembangunan baik fisik maupun non fisik. Sehingga masyarakat desa merasa lebih mudah dalam menjalankan seluruh aktifitasnya. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EXPLORE SECTION-->
-    <section id="explore-section" class="bg-light text-muted py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="images/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h3>Lorem</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aut autem culpa cumque
-                        ex, facilis illo ipsum itaque maiores minus molestias nemo nisi numquam qui suscipit</p>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, accusamus aliquid autem
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, accusamus aliquid autem
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CREATE HEAD-->
-    <section id="create-head-section" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col text-center py-5">
-                    <h1 class="display-4">Ipsum</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi esse, excepturi
-                        fuga mollitia quia
-                        rerum! Adipisci animi consequatur delectus eius, eveniet laboriosam minima nemo quibusdam</p>
+                    <h1 class="display-4">MISI DESA BABAKAN</h1>
+                        <p class="lead">Menciptakan pemerintahan desa yang dinamis dan terpadu</p>
+                        <p class="lead">Meningkatkan etos kerja pelayanan kepada masyarakat di berbagai aspek</p>
+                        <p class="lead">Menggali potensi Pendapatan Asli Desa sebagai sumber pembiayaan program pembangunan desa</p>
+                        <p class="lead">Meningkatkan kreatifitas dan produktifitas masyarakat desa</p>
+                        <p class="lead">Meningkatkan profesionalisme aparatur pemerintahan, lembaga, organisasi kemasyarakatan dalam rangka optimalisasi program pembangunan dan penyelenggaraan pemerintahan desa</p>
+                        <p class="lead">Memfasilitasi masyarakat kurang mampu dan masyarakat  miskin</p>
+                        <p class="lead">Meningkatkan kesadaran masyarakat akan hak dan kewajiban terhadap tuhan Yang Maha Esa, Pemerintah dan Sosial Kemasyarakatan</p>
+                        <p class="lead">Meningkatkan keamanan dan ketertiban dalam sosial kemasyarakatan</p>
+                        <p class="lead">Meningkatkan kelestarian pesisir pantai dan kawasan yang menjadi daerah wisata unggulan</p>
+                        <p class="lead">Meningkatkan pengertian, pemahaman dan pengamalan Agama sesuai dengan agama dan kepercayaannya masing-masing</p>
+                        <p class="lead">Meningkatkan jiwa persatuan dan kesatuan kepada seluruh warga masyarakat sehingga terciptanya masyarakat yang siap sedia dan berperan aktif dalam melaksanakan program pembangunan.</p>
+                        <p class="lead">Meningkatkan pemahaman kepada warga masyarakat akan pentingnya jiwa kebersamaan dan gotong royong sebagai modal dasar dalam rangka mewujudkan program pembangunan.</p>
+                        <p class="lead">Melaksanakan dan mewujudkan pembangunan dibidang fisik dan non fisik berdasarkan program menurut skala prioritas.</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- CREATE SECTION-->
-    <section id="create-section" class="py-5">
+    <section id="sejarah-section" class="bg-light text-muted py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Lorem</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolore fugiat impedit
-                        magni
-                        perspiciatis ut voluptate. Ad aliquam commodi consequuntur, dicta fugiat maiores modi nihil</p>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae commodi dolorem
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Aliquam architecto dolor, dolorem</div>
-                    </div>
+                    <img src="images/sejarah.jpg" alt="" class="img-fluid mb-3 rounded-circle">
                 </div>
                 <div class="col-md-6">
-                    <img src="images/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                    <h3 style="text-align: center;">Sejarah Desa Babakan</h3>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-end">
+                            Keberadaan Desa Babakan  sudah ada sejak jaman penjajahan Belanda atau tepatnya sebelum kemerdekaan RI. Karena luas wilayah dan untuk lebih mengefektipkan dalam memberikan pelayanan kepada warga masyarakatnya sehingga pada Tanggal 15 Bulan Juni Tahun 1978 Desa Babakan di mekarkan menjadi dua Desa yaitu  Desa Babakan dengan Desa Sukahurip.
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SHARE HEAD-->
-    <section id="share-head-section" class="bg-primary">
+    <section id="lokasi-head-section" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col text-center py-5">
-                    <h1 class="display-4">Dolor</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eveniet hic
-                        molestias
-                        veniam voluptate! Accusamus accusantium cum labore libero tempore! Consequuntur eligendi
-                        incidunt</p>
+                    <h1 class="display-4">Lokasi Desa Babakan</h1>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=-7.6860950,%20108.6600750&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net">google maps on my web site</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SHARE SECTION-->
-    <section id="share-section" class="py-5 bg-light text-muted">
+    <section id="lokasi-section" class="py-5 bg-light text-muted">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                    <img src="images/foto1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
                 </div>
                 <div class="col-md-6">
                     <h3>Consectetur</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut earum ex non optio placeat
                         quas
-                        rerum sit tempore voluptates? Alias deleniti dolorem exercitationem minima non reprehenderit
+                        rerum sit tempore voluptfates? Alias deleniti dolorem exercitationem minima non reprehenderit
                         saepe</p>
                     <div class="d-flex">
                         <div class="p-4 align-self-end">
@@ -185,47 +266,18 @@
         </div>
     </section>
 
-    <!-- FOOTER-->
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-google"></i></a>
-
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
-
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-github"></i></a>
-            </section>
-            <!-- Section: Social media -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3>Desa Babakan</h3>
+                    <p>Copyright&copy;2022
+                    </p>
+                </div>
+            </div>
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -236,14 +288,10 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script>
-        // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear());
 
-        //Initial Scrollspy
         $('body').scrollspy({
             target: '#main-nav'
         });
-        // Smooth Scrolling
         $('#main-nav a').on('click', function (e) {
             if (this.hash !== '') {
                 e.preventDefault();
@@ -256,7 +304,5 @@
             }
         });
     </script>
-
 </body>
-
 </html>
